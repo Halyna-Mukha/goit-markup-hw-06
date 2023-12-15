@@ -102,38 +102,6 @@ body {
   max-width: 767px;
   padding: 72px 0;
 }
-/* @media screen and (max-width: 320px) {
-  .hero {
-    background: var(--GREY, rgba(46, 47, 66, 0.7));
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/hero/people-office-mobile.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    margin: 0 auto;
-  }
-
-  @media screen and (min-resolution: 192dpi),
-    screen and (min-resolution: 2dppx),
-    screen and (min-device-pixel-ratio: 2) {
-    .hero {
-      background: var(--GREY, rgba(46, 47, 66, 0.7));
-      background-image: linear-gradient(
-          rgba(46, 47, 66, 0.7),
-          rgba(46, 47, 66, 0.7)
-        ),
-        url(../images/hero/people-office-mobile@2x.jpg);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-      margin: 0 auto;
-    }
-  }
-} */
-
 @media screen and (max-width: 320px) {
   .hero {
     background: var(--GREY, rgba(46, 47, 66, 0.7));
@@ -166,7 +134,7 @@ body {
   }
 }
 
-@media screen and (min-width: 321px) and (max-width: 767px) {
+@media screen and (min-width: 320px) {
   .hero {
     background: var(--GREY, rgba(46, 47, 66, 0.7));
     background-image: linear-gradient(
@@ -822,7 +790,7 @@ body {
 
 /* ===========MOBILE STYLES============= */
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   /* Header */
   .nav-container {
     display: flex;
@@ -1072,35 +1040,7 @@ body {
     max-width: 1023px;
     padding: 112px 0;
   }
-  /* background: var(--GREY, rgba(46, 47, 66, 0.7));
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/hero/people-office-tablet.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    margin: 0 auto;
-  }
-
-  @media screen and (min-resolution: 192dpi),
-    screen and (min-resolution: 2dppx),
-    screen and (min-device-pixel-ratio: 2) {
-    .hero {
-      background: var(--GREY, rgba(46, 47, 66, 0.7));
-      background-image: linear-gradient(
-          rgba(46, 47, 66, 0.7),
-          rgba(46, 47, 66, 0.7)
-        ),
-        url(../images/hero/people-office-tablet@2x.jpg);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-      margin: 0 auto;
-    }
-  } */
-  .title-solutions {
+    .title-solutions {
     max-width: 496px;
     height: 120px;
     font-size: 56px;
