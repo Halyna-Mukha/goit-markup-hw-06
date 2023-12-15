@@ -1108,7 +1108,7 @@ body {
 
   /* Footer tablet section */
   .main-footer {
-    padding: 96px 108px;
+    padding: 96px 0;
   }
   .logo-footer-box {
     margin-bottom: 72px;
