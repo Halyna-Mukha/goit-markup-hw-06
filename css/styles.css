@@ -101,32 +101,132 @@ body {
 .hero {
   max-width: 767px;
   padding: 72px 0;
-  background: var(--GREY, rgba(46, 47, 66, 0.7));
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(../images/hero/people-office-mobile.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  margin: 0 auto;
 }
-
-@media screen and (min-resolution: 192dpi),
-  screen and (min-resolution: 2dppx),
-  screen and (min-device-pixel-ratio: 2) {
+/* @media screen and (max-width: 320px) {
   .hero {
     background: var(--GREY, rgba(46, 47, 66, 0.7));
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/hero/people-office-mobile@2x.jpg);
+      url(../images/hero/people-office-mobile.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     margin: 0 auto;
+  }
+
+  @media screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx),
+    screen and (min-device-pixel-ratio: 2) {
+    .hero {
+      background: var(--GREY, rgba(46, 47, 66, 0.7));
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero/people-office-mobile@2x.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      margin: 0 auto;
+    }
+  }
+} */
+
+@media screen and (max-width: 320px) {
+  .hero {
+    background: var(--GREY, rgba(46, 47, 66, 0.7));
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero/people-office-mobile.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+  }
+
+  @media screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx),
+    screen and (min-device-pixel-ratio: 2) {
+    .hero {
+      background: var(--GREY, rgba(46, 47, 66, 0.7));
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero/people-office-mobile@2x.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      margin: 0 auto;
+    }
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 767px) {
+  .hero {
+    background: var(--GREY, rgba(46, 47, 66, 0.7));
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero/people-office-tablet.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+  }
+
+  @media screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx),
+    screen and (min-device-pixel-ratio: 2) {
+    .hero {
+      background: var(--GREY, rgba(46, 47, 66, 0.7));
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero/people-office-tablet@2x.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      margin: 0 auto;
+    }
+  }
+}
+@media screen and (min-width: 768px) {
+  .hero {
+    background-color: var(--NAVY-BLUE, #2e2f42);
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero/people-office-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    align-items: center;
+  }
+
+  @media screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx),
+    screen and (min-device-pixel-ratio: 2) {
+    .hero {
+      background: var(--GREY, rgba(46, 47, 66, 0.7));
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero/people-office-desktop@2x.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      margin: 0 auto;
+    }
   }
 }
 
@@ -217,10 +317,8 @@ body {
   column-gap: 72px;
 }
 .team-title-item-name {
-  max-width: 232px;
   padding: 32px 0;
   border-top: none;
-  margin: 0 auto;
 }
 .team-title {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -401,7 +499,6 @@ body {
   letter-spacing: 0.02em;
   width: 288px;
 }
-
 .footer-media {
   display: flex;
   flex-direction: column;
@@ -458,7 +555,7 @@ body {
 .footer-sub-title {
   color: var(--WHITE, #fff);
   font-weight: 500;
-  line-height: 1.5; /* 150% */
+  line-height: 1.5;
   letter-spacing: 0.02em;
   margin-bottom: 16px;
 }
@@ -579,7 +676,7 @@ body {
   color: var(--NAVY-BLUE, #2e2f42);
   text-align: center;
   font-weight: 500;
-  line-height: 1.5; /* 150% */
+  line-height: 1.5;
   letter-spacing: 0.02em;
   margin-bottom: 16px;
 }
@@ -727,9 +824,12 @@ body {
 
 @media screen and (max-width: 767px) {
   /* Header */
-
+  .nav-container {
+    display: flex;
+    max-width: 320px;
+    justify-content: space-between;
+  }
   .open-menu-button {
-    position: absolute;
     top: 16px;
     right: 16px;
     line-height: 0;
@@ -740,6 +840,7 @@ body {
     fill: #2f2f37;
   }
   .mobile-menu-wrapper {
+    display: flex;
     position: fixed;
     top: 0;
     left: 0;
@@ -757,6 +858,8 @@ body {
 
   .mobile-menu-container {
     position: relative;
+    display: flex;
+    flex-direction: column;
   }
   .mobile-menu-close-btn {
     position: absolute;
@@ -780,10 +883,10 @@ body {
     background-color: #404bbf;
   }
   .mobile-menu-nav {
+    margin-bottom: auto;
     padding-top: 72px;
   }
   .mobile-menu {
-    margin-bottom: 168px;
   }
   .mobile-menu-item {
     margin-bottom: 40px;
@@ -817,12 +920,16 @@ body {
   .mobile-menu-contacts-list {
   }
   .mobile-menu-contacts-link {
+    font-style: normal;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--SLATE, #434455);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .color {
+    color: var(--IRIS, #4d5ae5);
   }
   .mobile-menu-contacts-link:hover,
   .mobile-menu-contacts-link:focus {
@@ -836,6 +943,7 @@ body {
   .mobile-social-menu {
     display: flex;
     gap: 40px;
+    margin-bottom: 40px;
   }
   .mobile-social-menu-link {
     line-height: 0;
@@ -883,12 +991,16 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height: 72px;
+  }
+  .main-header {
+    padding: 0;
   }
   .main-nav {
     display: flex;
     justify-content: space-between;
     position: relative;
-    height: 72px;
+    align-items: center;
   }
   .logo {
     padding: 25.5px 0;
@@ -896,9 +1008,22 @@ body {
   .menu-link {
     display: flex;
     justify-content: space-between;
-    padding: 25.5px 0;
     gap: 40px;
     margin-left: 120px;
+  }
+
+  .link {
+    display: block;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding: 24px 0;
+    color: var(--NAVY-BLUE, #2e2f42);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .link:hover,
+  .link:focus {
+    color: var(--OCEAN, #404bbf);
   }
   .current {
     position: relative;
@@ -916,19 +1041,6 @@ body {
     left: 0;
     bottom: -1px;
   }
-  .link {
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    padding: 25.5px 0;
-    color: var(--NAVY-BLUE, #2e2f42);
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  .link:hover,
-  .link:focus {
-    color: var(--OCEAN, #404bbf);
-  }
-
   .our-contacts {
     display: flex;
     justify-content: center;
@@ -959,7 +1071,8 @@ body {
   .hero {
     max-width: 1023px;
     padding: 112px 0;
-    background: var(--GREY, rgba(46, 47, 66, 0.7));
+  }
+  /* background: var(--GREY, rgba(46, 47, 66, 0.7));
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -986,7 +1099,7 @@ body {
       background-size: cover;
       margin: 0 auto;
     }
-  }
+  } */
   .title-solutions {
     max-width: 496px;
     height: 120px;
@@ -1057,17 +1170,19 @@ body {
   .main-footer {
     padding: 96px 108px;
   }
+  .logo-footer-box {
+    margin-bottom: 72px;
+  }
   .logo-footer {
     display: flex;
     justify-content: start;
   }
   .link-logo-footer {
+    max-width: 584px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: baseline;
-    padding-left: 0;
-    padding-right: 0;
   }
   .footer-media {
     display: flex;
@@ -1138,7 +1253,9 @@ body {
     max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
-    margin: 0 auto;
+  }
+  .our-contacts {
+    padding-top: 0;
   }
   .menu-contacts {
     display: flex;
@@ -1148,11 +1265,23 @@ body {
     display: flex;
     padding-top: 24px;
     padding-bottom: 24px;
+    margin-bottom: 0;
+  }
+  .link {
+    padding: 24px 0;
+  }
+  .contacts {
+    color: var(--SLATE, #434455);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
   }
   .hero {
     max-width: 1440px;
     padding: 188px 0;
-    background-color: var(--NAVY-BLUE, #2e2f42);
+  }
+  /* background-color: var(--NAVY-BLUE, #2e2f42);
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -1180,8 +1309,10 @@ body {
       background-size: cover;
       margin: 0 auto;
     }
+  } */
+  .title-solutions {
+    margin-bottom: 48px;
   }
-
   /* About us section */
   .about-section {
     padding: 120px 0;
@@ -1259,6 +1390,12 @@ body {
   /* footer desktop section*/
   .main-footer {
     padding: 100px 0;
+  }
+  .logo-footer-box {
+    margin-bottom: 0px;
+  }
+  .footer-media {
+    margin-bottom: 0;
   }
   .link-logo-footer {
     display: flex;
